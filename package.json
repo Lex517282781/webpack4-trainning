@@ -1,0 +1,29 @@
+{
+  "name": "webpack4-trainning",
+  "version": "1.0.0",
+  "description": "a collection of simple demos of Webpack4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lex517282781/webpack4-trainning.git"
+  },
+  "keywords": [
+    "webpack",
+    "trainning",
+    "lesson",
+    "demo"
+  ],
+  "author": "biansaijun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lex517282781/webpack4-trainning/issues"
+  },
+  "homepage": "https://github.com/Lex517282781/webpack4-trainning#readme",
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}

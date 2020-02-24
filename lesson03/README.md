@@ -68,3 +68,24 @@ $ webpack
 ```
 
 这个时候就可以正常输出了, 此时再对 dist 中的 index.html 文件做下调整, 更改 js 的引用路径 `<script src="./bundle.js"></script>`, 然后在浏览器打开 index.html 文件, 此时 index.html 就在浏览器就正常运行了
+
+5. webpack 输出过程解析
+
+```bash
+Hash: 25a5730f9fd232657ef1 (表示本次打包唯一hash值)
+Version: webpack 4.41.6 (表示本次打包使用工具webpack的版本)
+Time: 485ms (表示本次打包的耗时)
+Built at: 2020-02-24 12:37:29 (表示本次打包的具体开始时间)
+    Asset (打包输出的文件)  Size (打包输出的文件大小)  Chunks (打包输出在各个引用的id值)  Chunk Names (打包输入的键值)
+        bundle.js               1010 bytes               0                 [emitted]             main
+Entrypoint main = bundle.js (表示本次打包的入口)
+[0] ./src/main.js + 1 modules 154 bytes {0} [built] (各个模块的引用关系)
+    | ./src/main.js 90 bytes [built]
+    | ./src/hello.js 64 bytes [built]
+
+# 这是webpack4新出的api关于模式的优化配置提示 [模式(mode)](https://www.webpackjs.com/concepts/mode/)
+# 默认为production
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+```

@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"99914b932bd37a50b983c5e7c90ae93b.cus\");\n\n//# sourceURL=webpack:///./src/demo.cus?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"data:;base64,NDU2\");\n\n//# sourceURL=webpack:///./src/demo.cus?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"202cb962ac59075b964b07152d234b70.text\");\n\n//# sourceURL=webpack:///./src/demo.text?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"data:text/plain;base64,MTIz\");\n\n//# sourceURL=webpack:///./src/demo.text?");
 
 /***/ }),
 

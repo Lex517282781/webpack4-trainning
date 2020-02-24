@@ -27,20 +27,30 @@ webpack 默认只能处理 js 模块的, 但是处理不了除 js 以外的其�
 2. filer-loader
 
 ```js
-{
+const path = require('path');
+
+module.exports = {
+  mode: 'development',
+  entry: {
+    main: './src/main.js'
+  },
+  output: {
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist')
+  },
   module: {
     rules: [
       {
-        test: /\.jpg$/,
+        test: /\.(jpg|text|cus)$/,
         use: [
           {
             loader: 'file-loader'
           }
         ]
       }
-    ];
+    ]
   }
-}
+};
 ```
 
 这个配置就是告知 webpack 当遇到不认识的 module 的时候, 需要在 module 里面查找匹配的模块, 然后 use 里面的 loader 方案去处理， 即 module -> rules -> test -> loader
@@ -56,3 +66,39 @@ webpack 默认只能处理 js 模块的, 但是处理不了除 js 以外的其�
 - 其他模块使用该文件的路径值
 
 所以 filer-loader 模块可以使源资源文件变成路径地址值, 即只要遇到这样需要路径地址的值的场景,就可以使用 filer-loader
+
+3. url-loader
+
+url-loader 的用途和 file-loader 的功能几乎一样, 但是当文件大小小于指定的值时, 可以返回一个 base64, 打包至使用其的其他模块中,不会额外生成一个文件
+
+```js
+const path = require('path');
+
+module.exports = {
+  mode: 'development',
+  entry: {
+    main: './src/main.js'
+  },
+  output: {
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist')
+  },
+  module: {
+    rules: [
+      {
+        test: /\.(jpg)$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 2048 // 可以更改此参数 查看打包效果
+            }
+          }
+        ]
+      }
+    ]
+  }
+};
+```
+
+基于以上, 在选择静态资源打包的时候, 且有一些小的 icon 或者其他比较小的资源的引用的时候, 为了减少 http 请求, 一般选择 url-loader

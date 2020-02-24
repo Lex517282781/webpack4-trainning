@@ -15,7 +15,10 @@ module.exports = {
         test: /\.(jpg|text|cus)$/,
         use: [
           {
-            loader: 'file-loader'
+            loader: 'url-loader',
+            options: {
+              limit: 2048
+            }
           }
         ]
       }

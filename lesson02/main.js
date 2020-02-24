@@ -1,0 +1,1 @@
+document.write('<h1>Hello Webpack lesson02</h1>')

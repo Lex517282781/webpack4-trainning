@@ -11,7 +11,7 @@ $ webpack
 
 注:
 直接运行命令 webpack, 即不加任何参数, webpack 会报错提示不能解析到入口
-说明运行 webpack, entry 模块是必选参数
+==说明运行 webpack, entry 模块是必选参数==
 
 2. 运行命令
 

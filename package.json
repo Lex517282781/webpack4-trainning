@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Lex517282781/webpack4-trainning#readme",
   "devDependencies": {
+    "file-loader": "^5.1.0",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
   }

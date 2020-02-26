@@ -34,7 +34,7 @@ $ npm install webpack webpack-cli -g
 1. [Lesson12 Webpack 监听打包文件变化](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson12)
 1. [Lesson13 Webpack 热模块更新](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson13)
 
-1. 注意
+## 注意
 
 本项目只为学习, 生产环境应可能使用在项目中安装 webpack webpack-cli 使用: `npm install webpack webpack-cli --save-dev`
 安装的时候尽可能保持源一致, 即要么全部使用 npm 安装, 或者全部使用 cnpm 安装, 否则容易引起以下找不到模块的错误提示

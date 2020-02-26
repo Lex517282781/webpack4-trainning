@@ -20,16 +20,16 @@ $ npm install webpack webpack-cli -g
 
 ## Index
 
-1. [Lesson01 Webpack 初探](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson01){:target="_blank"}
-1. [Lesson02 Webpack 配置文件](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson02){:target="_blank"}
-1. [Lesson03 Webpack 演示项目优化](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson03){:target="_blank"}
-1. [Lesson04 Webpack 入口和出口配置](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson04){:target="_blank"}
-1. [Lesson05 Webpack Loader](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson05){:target="_blank"}
-1. [Lesson06 样式 Loader](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson06){:target="_blank"}
-1. [Lesson07 Webpack 处理字体](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson07){:target="_blank"}
-1. [Lesson08 Webpack js loader](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson08){:target="_blank"}
-1. [Lesson09 Webpack React](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson09){:target="_blank"}
-1. [Lesson10 Webpack plugins](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson10){:target="_blank"}
+1. [Lesson01 Webpack 初探](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson01?_blank)
+1. [Lesson02 Webpack 配置文件](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson02?_blank)
+1. [Lesson03 Webpack 演示项目优化](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson03?_blank)
+1. [Lesson04 Webpack 入口和出口配置](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson04?_blank)
+1. [Lesson05 Webpack Loader](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson05?_blank)
+1. [Lesson06 样式 Loader](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson06?_blank)
+1. [Lesson07 Webpack 处理字体](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson07?_blank)
+1. [Lesson08 Webpack js loader](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson08?_blank)
+1. [Lesson09 Webpack React](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson09?_blank)
+1. [Lesson10 Webpack plugins](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson10?_blank)
 
 1. 注意
 

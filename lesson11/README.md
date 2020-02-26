@@ -1,4 +1,4 @@
-# source map
+# Webpack source map
 
 source map 是一个关于开发和生成阶段选择如何调试的配置方式, 是一种映射关系, 能把生产出的文件中出错的位置和源文件保持映射
 

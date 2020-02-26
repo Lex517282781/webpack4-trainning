@@ -30,6 +30,9 @@ $ npm install webpack webpack-cli -g
 1. [Lesson08 Webpack js loader](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson08)
 1. [Lesson09 Webpack React](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson09)
 1. [Lesson10 Webpack plugins](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson10)
+1. [Lesson11 Webpack source map](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson11)
+1. [Lesson12 Webpack 监听打包文件变化](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson12)
+1. [Lesson13 Webpack 热模块更新](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson13)
 
 1. 注意
 

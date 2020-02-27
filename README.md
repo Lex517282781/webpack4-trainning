@@ -33,6 +33,7 @@ $ npm install webpack webpack-cli -g
 1. [Lesson11 Webpack source map](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson11)
 1. [Lesson12 Webpack 监听打包文件变化](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson12)
 1. [Lesson13 Webpack 热模块更新](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson13)
+1. [Lesson14 Webpack Code Splitting](https://github.com/Lex517282781/webpack4-trainning/tree/master/lesson14)
 
 ## 注意
 

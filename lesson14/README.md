@@ -1,4 +1,4 @@
-# Code Splitting
+# Webpack Code Splitting
 
 ## 修改 entry 的方式
 
